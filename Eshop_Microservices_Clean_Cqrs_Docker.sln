@@ -9,17 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDPService", "IDPService", "{E50E6EA4-AE24-4F33-8A5C-AE481E39DA15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Api", "Src\Services\IDPService\IDP.Api\IDP.Api.csproj", "{FA1B464B-7EE4-42F6-A115-21188013DA34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP.Api", "Src\Services\IDPService\IDP.Api\IDP.Api.csproj", "{FA1B464B-7EE4-42F6-A115-21188013DA34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Domain", "Src\Services\IDPService\IDP.Domain\IDP.Domain.csproj", "{C5CA2084-E60D-4980-AE8D-E9536218E51A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP.Domain", "Src\Services\IDPService\IDP.Domain\IDP.Domain.csproj", "{C5CA2084-E60D-4980-AE8D-E9536218E51A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Application", "Src\Services\IDPService\IDP.Application\IDP.Application.csproj", "{BBADA270-957D-4311-9636-ADFBF461C09D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP.Application", "Src\Services\IDPService\IDP.Application\IDP.Application.csproj", "{BBADA270-957D-4311-9636-ADFBF461C09D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Infrastructure", "Src\Services\IDPService\IDP.Infrastructure\IDP.Infrastructure.csproj", "{ED5165C7-A3AB-4D4F-8BB3-E3DF3F7D02C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP.Infrastructure", "Src\Services\IDPService\IDP.Infrastructure\IDP.Infrastructure.csproj", "{ED5165C7-A3AB-4D4F-8BB3-E3DF3F7D02C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Ioc", "Src\Services\IDPService\IDP.Ioc\IDP.Ioc.csproj", "{C4996E4D-48B0-4C57-946A-D0613513D234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP.Ioc", "Src\Services\IDPService\IDP.Ioc\IDP.Ioc.csproj", "{C4996E4D-48B0-4C57-946A-D0613513D234}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.UnitTest", "Src\Services\IDPService\IDP.UnitTest\IDP.UnitTest.csproj", "{8F65CB9D-044E-4E78-A0BB-60DE8C0D1FB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP.UnitTest", "Src\Services\IDPService\IDP.UnitTest\IDP.UnitTest.csproj", "{8F65CB9D-044E-4E78-A0BB-60DE8C0D1FB1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{94786738-DAEE-44B3-A8B7-C5F848E7D4BC}"
 EndProject
@@ -35,7 +35,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportService", "ReportServ
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentService", "PaymentService", "{94D9F249-1E3C-4FB1-9E33-19701E900D0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDP.Resources", "Src\Services\IDPService\IDP.Resources\IDP.Resources.csproj", "{21DEE9F6-FC02-47B7-B51A-4B376F400F96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDP.Resources", "Src\Services\IDPService\IDP.Resources\IDP.Resources.csproj", "{21DEE9F6-FC02-47B7-B51A-4B376F400F96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{F69FB9E5-6A2F-4BF1-AC24-9BDD398C3951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Src\Common\Auth\Auth.csproj", "{6D9D364C-0554-49E4-8C6D-040A5B63F27D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,10 @@ Global
 		{21DEE9F6-FC02-47B7-B51A-4B376F400F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21DEE9F6-FC02-47B7-B51A-4B376F400F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21DEE9F6-FC02-47B7-B51A-4B376F400F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9D364C-0554-49E4-8C6D-040A5B63F27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9D364C-0554-49E4-8C6D-040A5B63F27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9D364C-0554-49E4-8C6D-040A5B63F27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9D364C-0554-49E4-8C6D-040A5B63F27D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +100,8 @@ Global
 		{C4128B7E-F43A-407E-BC09-039A2E22F555} = {E98CFFF0-0923-4006-B6EE-816221754364}
 		{94D9F249-1E3C-4FB1-9E33-19701E900D0A} = {E98CFFF0-0923-4006-B6EE-816221754364}
 		{21DEE9F6-FC02-47B7-B51A-4B376F400F96} = {E50E6EA4-AE24-4F33-8A5C-AE481E39DA15}
+		{F69FB9E5-6A2F-4BF1-AC24-9BDD398C3951} = {E98CFFF0-0923-4006-B6EE-816221754364}
+		{6D9D364C-0554-49E4-8C6D-040A5B63F27D} = {94786738-DAEE-44B3-A8B7-C5F848E7D4BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1629B47F-02EE-456E-A1F5-95A2BEBA2D22}
