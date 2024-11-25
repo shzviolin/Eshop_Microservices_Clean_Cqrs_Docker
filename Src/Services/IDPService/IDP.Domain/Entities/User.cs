@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using IDP.Domain.Entities.BaseEntities;
+using System.ComponentModel.DataAnnotations;
 
 namespace IDP.Domain.Entities;
 

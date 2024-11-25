@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace IDP.Domain.Entities;
+namespace IDP.Domain.Entities.BaseEntities;
 
 public class BaseEntity
 {
     public BaseEntity()
     {
-        this.CreateDateTime = DateTime.UtcNow;
+        CreateDateTime = DateTime.UtcNow;
     }
 
     [Key]
